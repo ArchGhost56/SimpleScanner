@@ -22,13 +22,16 @@
 [][][][][][][[[][][][][][][][][][][]][][][][][][][][][][]][][][][][][][][][][][][][][][][][][][]
 
 INSTALLATIONS:
+
 ```git clone https://github.com/ArchGhost56/SimpleScanner.git```
 
 DIRECTORY:
+
 ```cd SimpleScanner```
 
 USAGE:
-```python3 simplescanner.py```**
+
+```python3 simplescanner.py```
 
 [][][][][][][[[][][][][][][][][][][]][][][][][][][][][][]][][][][][][][][][][][][][][][][][][][]
 
