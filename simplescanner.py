@@ -26,7 +26,7 @@ class Core(object):
             exit(0)
         Core.ipurl=self.ipurl
         print (60*"-")
-        print (22*" ",bcolors.FAIL,"Ghostscanner",bcolors.ENDC)
+        print (22*" ",bcolors.FAIL,"Port Scanner v1",bcolors.ENDC)
         print (60*"-")
         while Core.menu1 is not True:
             choice = input("\n1 - simple \n2 - extended\n")
