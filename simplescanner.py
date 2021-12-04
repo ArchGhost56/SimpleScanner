@@ -74,7 +74,7 @@ class Core(object):
             print (e)
 try:
     scan = Core()
-    scan.GetData(input("Type IP or address\n"))
+    scan.GetData(input("Enter IP or ADRESS:"))
     print(bcolors.WARNING,"Range:",Core.mode,"\n Target:",Core.ipurl,"\n Scanning speed:",Core.network_speed,bcolors.ENDC)
     print(bcolors.BOLD,"Please wait...",bcolors.ENDC)
     for count in range(0,Core.mode):
