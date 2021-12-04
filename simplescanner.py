@@ -1,6 +1,8 @@
 import socket
 import _thread
 import time
+import sys
+import os
 class bcolors:
     HEADER = '\033[95m'
     OKBLUE = '\033[94m'
@@ -25,8 +27,9 @@ class Core(object):
             print ("Invalid URL or IP")
             exit(0)
         Core.ipurl=self.ipurl
+        os.system ("figlet GHOSTxScanner")
         print (60*"-")
-        print (22*" ",bcolors.FAIL,"Ghostscanner",bcolors.ENDC)
+        print (22*" ",bcolors.FAIL,"version 3.4",bcolors.ENDC)
         print (60*"-")
         while Core.menu1 is not True:
             choice = input("\n1 - simple \n2 - extended\n")
