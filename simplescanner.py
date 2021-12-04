@@ -1,5 +1,3 @@
-import sys
-import os
 import socket
 import _thread
 import time
@@ -27,7 +25,6 @@ class Core(object):
             print ("Invalid URL or IP")
             exit(0)
         Core.ipurl=self.ipurl
-        os.system("figlet Scanner")
         print (60*"-")
         print (22*" ",bcolors.FAIL,"Ghostscanner",bcolors.ENDC)
         print (60*"-")
