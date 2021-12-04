@@ -34,7 +34,7 @@ class Core(object):
         print (22*" ",bcolors.FAIL,"version 3.4",bcolors.ENDC)
         print (60*"-")
         while Core.menu1 is not True:
-            choice = input("\n1 - simple \n2 - extended\n")
+            choice = input("\n1 - simple \n2 - extended\n Choose:")
             if choice == "1":
                 Core.mode=1024
                 menu=True
@@ -46,7 +46,7 @@ class Core(object):
             else:
                 print("Incorrect answer, choose 1 or 2")
         while Core.menu2 is not True:
-            choice = input("\n1 - LAN \n2 - Global Network\n")
+            choice = input("\n1 - LAN \n2 - Global Network\n Choose:")
             if choice == "1":
                 Core.network_speed=0.05
                 menu2=True
